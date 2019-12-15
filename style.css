@@ -1,0 +1,278 @@
+body{
+    width: 100%;
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+    height:auto;
+    font-family:arial;
+}
+#logo{ 
+    font-size:2vw;
+    float:left;
+    padding-left:5vw;
+}
+#line{
+    letter-spacing: -5px;
+    font:3vw solid black;
+    float:left;
+    margin-top:1.5vw;
+    margin-left: 1vw;
+}
+#first,#second,#third,#fourth,#fifth,#sixth,#seventh{
+    width:82vw;
+    left:9vw;
+    position:relative;
+    height:auto;
+}
+#first{
+    background-image: url('./feather.jpg');
+    background-size: cover;
+    text-align: center; 
+    padding-bottom: 13vw;
+}
+#menu li{
+    font-size:1vw;
+    display:inline-flex;
+    margin:0.5vw;
+}
+#header{
+    display:flex;
+}
+#headerLogo{
+    float:left;
+    margin-top:-5px;
+}
+#headerMenu{
+    float:right;
+    margin-left:38vw;
+}
+h1{
+    font-size:4vw;
+    padding-top:6vw;
+   }
+#par{
+    font-size:1vw;
+    margin:0;
+}
+#button{
+    border-radius: 40px;
+    border: 2px solid blue;
+    background-color:blue;
+    color:white;
+    width:12vw;
+    height:3vw;
+    font-size:1vw;
+}
+#second{
+    background-color:aliceblue;
+    padding-bottom:30vw;
+}
+#aboutUs{
+    padding-top: 5vw;
+    padding-left:7vw;
+    width:30%;
+    height:auto;
+    float:left;
+}
+#hands{
+    position: absolute;
+    width: 50%;
+    left:30%;
+}
+#hands1{
+    width:22vw;
+    height:auto;
+    margin:5vw;
+    margin-left:10vw;
+}
+#hands2{
+    width:17vw;
+    position:absolute;
+    margin:10vw;
+    margin-left:-10vw;
+}
+#sub{
+    opacity: 0.7;
+    font-size: 1.2vw;
+}
+#subsub{
+    opacity: 0.5;
+    font-size: 0.8vw;
+    line-height: 1.5vw;
+}
+#third{
+    float:left;
+    padding-bottom:5vw;
+    float:left;
+}
+h3{
+    font-size:2vw;
+    padding-left:5vw;
+}
+h2,h4,h5{
+    font-size: 2.5vw;
+}
+#more{
+    float:right;
+    font-size:1vw;
+    margin-right:10vw;
+    margin-top:-3vw;
+}
+#headphones{
+    width:42%;
+    padding-left:5vw;
+    height:auto;
+    float:left;
+}
+#sidePic{
+    width:39%;
+    padding:1%;
+}
+#sidePics{
+    position:absolute;
+    margin-left:50%;
+    float:left;
+}
+#capt1,#capt3,#capt5,#capt7,#capt9{
+    position: absolute;
+    font-size:1vw;
+    color:blue;
+}
+#capt2,#capt4,#capt6,#capt8,#capt10{
+    position: absolute;
+    font-size:0.7vw;
+    opacity: 0.7;
+}
+#capt1{
+    top: 80%;
+    left:10%;
+}
+#capt2{
+    top: 84%;
+    left:10%;
+}
+#capt3{
+    top:40%;
+    left:3%;
+}
+#capt4{
+    top:45%;
+    left:3%
+}
+#capt5{
+    top:40%;
+    left:45%;
+}
+#capt6{
+    top:45%;
+    left:45%;
+}
+#capt7{
+    top:88%;
+    left:3%;
+}
+#capt8{
+    top:92%;
+    left:3%;
+}
+#capt9{
+    width:35%;
+    top:82%;
+    left:45%;
+}
+#capt10{
+    top:90%;
+    left:45%
+}
+#fourth{
+    background-color: rgb(34, 33, 33);
+    display:flex;
+    text-align: center;
+}
+#project,#customer,#award{
+    color:white;
+    text-align:center;
+    width:15vw;
+    padding:1.5vw;
+    float:left;
+    font-size:1vw;
+}
+#project{
+    margin-left: 12vw;
+}
+#phone{
+    width:40vw;
+}
+#fifth{
+    float:left;
+    display:flex;
+}
+#field{
+    margin-top:2vw;
+    border-top-left-radius:40px;
+    border-bottom-left-radius:40px;
+    width:17vw;
+    height:2vw;
+    float:left;
+    border:solid 1px black;
+}
+#field::placeholder{
+    font-size: 1vw;
+}
+#send{
+    margin-top:2vw;
+    border-top-right-radius:40px;
+    border-bottom-right-radius:40px;
+    border: 2px solid blue;
+    background-color:blue;
+    color:white;
+    width:6vw;
+    height:2.4vw;
+    font-size:1vw;
+}
+#phoneDiv{
+    position:relative;
+    width:50vw;
+}
+#touch{
+    width:35%;
+    float:left;
+    position:absolute;
+    left:45vw;   
+}
+#sixth{
+    display:table;
+    background-color:aliceblue;
+}
+#seventh{
+    background-color: rgb(34, 33, 33);
+    color:white;
+}
+#logos{
+    width:9vw;
+    padding:2vw;
+    padding-top:5.5vw;
+    padding-bottom:5.5vw;
+}
+#adress,#number,#media{
+    position:relative;
+    width:10vw;
+    font-size:1vw;
+    float:left;
+    padding-left:10vw;
+    padding-top:1.5vw;
+}
+#medias{
+    width:1vw;
+    padding-left:1vw;
+}
+#infoDiv{
+    padding-top:2vw;
+}
+#cpDiv{
+    font-size:0.7vw;
+    padding-top:8vw;
+    padding-bottom:1vw;
+    text-align:center;
+    opacity:0.7;
+}
